@@ -1,4 +1,6 @@
-
+body{
+    background-color: #363636;
+}
 
 .img_topo{
     width: 50%;
@@ -19,6 +21,7 @@ figure{
 
 h1{
     text-align: center;
+    color: white;
 }
 
 p{
