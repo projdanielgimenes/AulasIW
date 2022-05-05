@@ -1,5 +1,5 @@
 body{
-    background-color: #363636;
+    background-color: blueviolet;
 }
 
 .img_topo{
@@ -28,4 +28,23 @@ p{
     font-size: 1.5em;
     text-align: justify;
     text-indent: 35px;
+}
+
+.parag_letras > p{
+    font-size: 1em;
+    text-align: center;
+}
+
+.botao{
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    
+}
+
+.botao p{
+    padding-top: 9px;
+    padding-left: 6px;
+    
 }
