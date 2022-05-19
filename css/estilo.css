@@ -2,6 +2,15 @@ html{
     scroll-behavior:smooth ;
 }
 
+.menu{
+    background-color: red;
+    padding: 2%;
+}
+
+.itens_menu{
+    text-align: center;
+}
+
 
 body{
     background-color: blueviolet;
@@ -27,12 +36,17 @@ figure{
 h1{
     text-align: center;
     color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+    
 }
 
 p{
     font-size: 1.5em;
     text-align: justify;
     text-indent: 35px;
+    line-height: 1.5;
 }
 
 .parag_letras > p{
@@ -53,3 +67,21 @@ p{
     padding-left: 6px;
     
 }
+
+footer{
+    background-color: red;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+footer p{
+    font-size: 1em;
+    text-indent: 35px;
+    text-align: center;
+}
+
+.centro{
+    text-align: center;
+}
+
