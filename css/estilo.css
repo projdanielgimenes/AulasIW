@@ -3,22 +3,50 @@ html{
 }
 
 .menu{
-    background-color: red;
+    background-color: black;
     padding: 2%;
 }
+
 
 .itens_menu{
     text-align: center;
 }
 
+a:link {
+    text-decoration: none;
+    color: violet;
+    font-family: courier;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: violet
+   
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+.logo{
+    font-family: fantasy;
+}
 
 body{
-    background-color: blueviolet;
+    background-color:#1c1c1c ;
+    font-family: HELVETICA;
+    color: WHITE;
 }
 
 .img_topo{
-    width: 50%;
+    width: 100%;
+
 }
+
 
 .img_corpo{
     width: 50%;
@@ -38,7 +66,8 @@ h1{
     color: white;
     padding-top: 1em;
     padding-bottom: 1em;
-    font-size: 2em;
+    font-size: 3em;
+    font-family: fantasy;
     
 }
 
@@ -47,7 +76,10 @@ p{
     text-align: justify;
     text-indent: 35px;
     line-height: 1.5;
+    font-family: monospace;
+    text-align: left;
 }
+
 
 .parag_letras > p{
     font-size: 1em;
@@ -69,9 +101,12 @@ p{
 }
 
 footer{
-    background-color: red;
+    background-color: BLACK;
     padding-top: 2%;
     padding-bottom: 2%;
+    color: violet;
+    font-family: courier;
+    text-align: center;
     
 }
 
@@ -84,4 +119,29 @@ footer p{
 .centro{
     text-align: center;
 }
+
+
+
+.nota_sobre{
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.eumesmo{
+  width: 300px;
+  float: right;
+  margin-left: 20px;
+}
+
+.texto_sobre{
+    float: left;
+    padding-right: 50%;
+    text-align: justify;
+}
+
+
+
+
+
 
